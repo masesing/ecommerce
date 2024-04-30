@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    color: #241e20;
+}
+.header{
+    position: flex;
+    top: 0;
+    left: 0;
+    width: 45%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 23px;
+    color: black;
+    text-decoration: #241e20;
+    font-weight: 600;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+}
+.gallery1{
+    flex-basis: 75%;
+    background: #fcfbfc;
+}
+.gallery1 img{
+    width: 120%;
+
+}
+.gallery2{
+    flex-basis: 75%;
+    background: #fbfafa;
+}
+.gallery2 img{
+    display: flex;
+    width: 120%;
+    
+}
+.gallery3{
+    flex-basis: 75%;
+    background: #fbfafa;
+}
+.gallery3 img{
+    display: flex;
+    width: 120%;
+}
+.gallery4{
+    flex-basis: 75%;
+    background: #fbfafa;
+}
+.gallery4 img{
+    display: flex;
+    width: 120%;
+
+}
+.details{
+    flex-basis: 100%;
+    background: #ffffff;
+    padding: 40px;
+    padding-left: 60px;
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0,1);
+    font-size: 13px;
+    font-weight: 500;
+    color: #777;
+}
+.details h1{
+    color: #b46c00;
+    font-size: 15px
+}
+.details h2{
+    color: #070707;
+    font-size: 30px;
+    font-weight: 600;
+}
+.details h3{
+    color: #818181;
+    margin-bottom: 20px;
+}
+.details h4{
+    color: #070707;
+    font-size: 20px;
+    font-weight: 600;
+}
+.details h6{
+    color: #b46c00;
+    font-size: 10px;
+    font-weight: 600;
+}
+.navbar a{
+    display: relative;
+    font-size: 13.5px;
+    color: #3a3737d4;
+    font-weight: 550;
+    margin: 1.5%;
+}
+.navbar a:hover{
+    color: #070707;
+}
+.btn-box{
+    font-display: flex;
+    color: #b46c00;
+    padding: 6px 14px;
+    background: rgba(255, 153, 0, 0.523);
+    border-radius: 2.5px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 800;
+}
